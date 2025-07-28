@@ -1,0 +1,286 @@
+html, body {
+padding:0px; margin:0px; min-width:1080px
+}
+
+/*slide css*/
+.slide {
+ width: 99%; height: 265px; border: 1px solid #000;  position: relative; margin: 0px 2px; cursor: pointer;
+}
+.btn {
+ width: 30px; height: 30px; font-size: 20px; border: none; background: rgba(0,0,0,0); color: #fff; top: 130px; cursor: pointer;
+}
+.next {
+	width: 99%;  position: absolute; top: 48%
+	}
+.next > #btn1 {
+float:right;
+}
+.dot {
+		text-align: center; height: 30px; width: 100%; background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+	}
+.conten .main .dot ul {
+		margin: 0px; padding: 0px; list-style: none; margin-left: 295px;
+	}
+.conten .main .dot ul li {
+		width: 15px; height: 15px; border: 1px solid #ccc; float: left; margin: 10px; border-radius: 50%
+	}
+.dot ul li:hover,
+.active
+	{
+		background: #CCC; cursor: pointer
+	}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+/* end slide css */
+
+
+.backgr {
+	padding: 0px; margin: 0px; width: 100%; background: url('image/fast-food-1.png') no-repeat; background-size: cover;
+}
+
+a {
+	text-decoration: none
+}
+a:hover {
+	text-decoration: underline
+}
+.banber {
+	width: 80%; height: 150px; margin: 10px auto; background:rgba(0,0,0,0.60)
+}
+	.logo {
+		width: 33%; height: 100%; float: left
+	}
+	.mid {
+		width: 45%; height: 100%; float: left;
+	}
+	.contact {
+		width: 15%; height: 100%; float: left; margin-left: 25px; color: aliceblue
+	}
+.contact ul {
+	margin: 0px; padding: 0px; list-style: none
+}
+.contact ul li {
+	width: 100%; height: 50px; text-align: center; font: italic; font-size: 20px; margin-top: 20px; border-bottom: 1px solid rgba(255,255,255,1.00)
+}
+.contact ul li:hover {
+	background: rgba(0,255,5,1.00)
+}.contact ul li:hover a {
+	color: rgba(50,0,255,1.00)
+}
+.contact ul li a {
+	text-decoration: none; color: aliceblue; line-height: 50px;
+}
+	/*-------------------------------------
+---------------------------------------------------
+-------------------------------------------*/
+.conten {
+	width: 80%; border: 1px solid #ccc; margin:10px auto; background:rgba(0,0,0,0.60);
+}
+	.serchbox {
+		margin-top: 10px; margin-left: 10px;
+	}
+	.txt {
+		 height: 30px; width: 85%; border-radius: 10px; outline: none;
+	}
+	.sub {
+		height: 35px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; width: 55; margin-left: -42px; background: #347FBC; outline: none; cursor: pointer
+	}
+	.sub:hover {
+		background: #1200FF; cursor: pointer
+	}
+	.menulef {
+		width: 29%;  border: 1px solid; float: left; background:rgba(0,0,0,0.60)
+	}
+	.divsearch {
+		width: 100%; background: #fff; border-radius: 10px; display: none
+	}
+	.menulef .divsearch ul {
+		list-style: none; margin: 0px; padding: 0px
+	}
+	.menulef .divsearch ul li {
+		margin: 10px 0px; height: 40px
+	}
+	.menulef .divsearch ul li:hover {
+		background: rgba(242,245,109,1.00)
+	}
+	.menulef .divsearch ul li a {
+		color: #000; text-decoration: none; margin-left: 15px; line-height: 40px; transition: 0.5s;
+	}
+	.menulef .divsearch ul li:hover a {
+		color: rgba(0,17,212,1.00); font-size: 20px
+	}
+	.conten .menu ul {
+		margin: 0px; padding: 0px; list-style: none;
+	}
+	.conten .menu ul li {
+			height: 50px; margin: 10px 0px; text-indent: 20px;
+		}
+	.conten .menu ul li a {
+		color: aliceblue; line-height: 50px; 
+	}
+	.conten .menu ul li:hover{
+		background:rgba(255,255,255,0.80)
+	}
+	.conten .menu ul li:hover a {
+		color: #0053FC;
+	}
+	
+	/*-------------------------------------
+---------------------------------------------------
+-------------------------------------------*/
+	.main {
+		width: 69%; border: 1px solid  #ccc; float: right; margin-right: 13px; background:rgba(255,255,255,0.80)
+	}
+	.title {
+			width: 202px; margin-left: 10px;margin-top: 10px; height: 50px; border: 1px solid #000000; background: rgba(255,0,4,1.00)
+		}
+		.titlel {
+			width: 150px; height: 100%; background: #7FE714; float: left
+		}
+		.titler {
+			width: 0px; height: 0px;  float: left;
+			border-bottom: 50px solid #7FE714;
+			border-left: 2px solid #7FE714;
+			border-right: 50px solid rgba(0,0,0,0);
+		}
+	/*-------------------------------------
+---------------------------------------------------
+-------------------------------------------*/
+
+	.anh {
+		width: 200px; height: 200px; margin: 10px; position: relative;
+		border-radius: 16px; box-shadow: 5px 10px #ccc; float: left; margin-left: 22px;
+	}
+	.chu {
+		color: aliceblue; text-align: justify; text-indent: 10px; background: rgba(0,0,0,0.50);
+		width: 100%; height: 100%; position: absolute; opacity: 0; transition: 0.5s; top: 20%; border-radius: 16px;
+	}
+	.tieude {
+		background: rgba(0,0,0,0.50); opacity: 1; color: aliceblue; text-indent: 10px; top: 75%; position: absolute;   width: 100%; height: 30px; border-bottom-left-radius: 16px; border-bottom-right-radius: 16px;
+	}
+	
+	.anh:hover .chu {
+		opacity: 1; top:0;
+	}
+
+.row {
+	width:99%; height:230px; overflow-x: scroll
+}
+.conten .main ul {
+	margin: 0px; padding: 0px; list-style: none
+}
+.conten .main ul li {
+	 border: 1px solid #000; float: left; width: 24%; margin-left: 5px; text-align: center; margin-top:15px;
+}
+	/*-------------------------------------
+---------------------------------------------------
+-------------------------------------------*/
+.chiatrang {
+	height: 50px; width: 100%; margin-top: 0px
+}
+.conten .main .chiatrang ul {
+	margin: 0px; padding: 0px; position: absolute; left: 50%
+}
+.conten .main .chiatrang ul li {
+	width: 30px; height: 20px; border: 1px solid #000; margin: 30px 3px 0px;
+}
+.conten .main .chiatrang ul li:hover {
+	background: #000;
+}
+.conten .main .chiatrang ul li:hover a {
+	color: #FFF;
+}
+.footer {
+	width: 80%; height: 100px; border: 1px solid #ccc; margin: 10px auto;
+	background:rgba(0,0,0,0.60)
+}
+
+/*-------------------------------------
+----------------css trang chi tiet san pham-----------------------------------
+-------------------------------------------*/
+.mainanh {
+	width: 40%; height: 200px; margin: 40px 10px; border: 1px solid #000; float: left; transition: 0.5s
+}
+.mainanh:hover {
+	width: 42%; height: 210px; cursor: pointer
+}
+.mainsp {
+	margin: 10px; border: 1px solid rgba(0,0,0,1.00); width: 50%; float: left; text-indent: 15px;
+}
+.btn-buy {
+	margin-left: 5px;
+    background: #4e0c0c;
+    padding: 5px 10px;
+    display: inline-block;
+    text-align: center;
+    color: #FFF;
+    font-size: 18px;
+    text-transform: capitalize;
+    border: 1px solid #4e0c0c;
+    font-weight: 500;
+    border-radius: 5px;
+	margin-bottom: 20px;
+
+}
+.btn-buy:hover {
+	cursor: pointer;
+}
+.sptt {
+	width: 150px; height: 300px; margin: 0px 10px; float: left; word-wrap: break-word!important;
+}
+/*css phần loginnnnnnnn regsiterrrrr*/
+.login
+	{
+		background: rgba(0,0,0,0.8); color: aliceblue; position: fixed; top: 20%; left: 35%; width: 400px; padding: 40px; box-sizing: border-box; box-shadow: 0 15px 25px rgba(0,0,0,0.5); border-radius: 10px; display: none; animation: zoom 0.5s;
+	}
+	.login h2 {
+		text-align: center; margin: 0px 0px 30px;
+	}
+	.login .inputbox {
+		position: relative
+	}
+	.login .inputbox input {
+		width: 100%; padding: 10px 0;
+		font-size: 16px; margin-bottom: 30px; background: transparent; border: none; border-bottom: 1px solid #FFF; outline: none; color: aliceblue
+	}
+	.login .inputbox label {
+		position: absolute; top: 0px; left: 0px; padding: 10px 0px; pointer-events: none; transition: 0.5s
+	}
+	.login .inputbox input:focus ~ label,
+	.login .inputbox input:valid ~ label
+	{
+		top: -25px;
+		font-size: 12px; color: #03a9f4
+	}
+	.login input[type="submit"]
+	{
+		background: #03a9f4; color: aliceblue; border: none; outline: none; padding: 10px 20px; cursor: pointer;
+	}
+	.login input[type="submit"]:hover {
+		opacity: 0.4;
+	}
+	@keyframes zoom {
+		from {transform: scale(0)} 
+    	to   {transform: scale(1)}
+	}
+	.close {
+		font-size: 25px; position: absolute; top: 0px; right: 0px; cursor: pointer;
+	}
+/*csss phần comment*/
+.comment {
+	width: 90%; border: 1px solid rgba(0,0,0,1.00); margin-left: 20px;
+}
